@@ -14,6 +14,8 @@ class Shoe
   end
 
   def brands=(brand)
-    
+    if !BRANDS.include?(brand)
+      BRANDS.push(brand)
+    end
   end
 end

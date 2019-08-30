@@ -13,6 +13,6 @@ class Book
   end
   
   def genre=(gen)
-    @genre.push(gen)
+    GENRES.push(gen)
 
 end
